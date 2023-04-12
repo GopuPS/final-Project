@@ -1,0 +1,175 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+p,a,li,td{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/** header before scroll**/
+.menu-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 9999;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all .25s ease;
+}
+/** header before scroll**/
+.menu-row .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+/** header LOGO**/
+.menu-row .logo > div{
+    height: 115px;
+    transition: all .25s linear;
+}
+.menu-row .logo img{
+    height: 100%;
+    width: auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+      /*for navigation links */
+.menu li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+      /* a to hover*/
+.menu li a:hover {
+    background-color: #0d0d0d;
+    color: #f7f7f7;
+}
+ /** the two section is active when the  scroll is grater than 75px**/
+.scrolled-menu{
+    background-color: #0e0e0e;
+}
+.scrolled-menu li a{
+    color: #f4f4f4;
+}
+.scrolled-menu li a:hover{
+    color: #0d0d0d;
+    background-color: #f7f7f7;
+}
+.masthead{
+    background-image: url("../img/customer-service-reps-1940x900_34430.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.masthead div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+.masthead h1{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 3.5em;
+}
+.sub-head h2{
+    margin-top: 70px;
+    margin-left: 40px;
+    font-size: 2.0em;
+    color: #0e0e0e;
+}
+/* for form */
+.det {
+    width: 70%;
+    margin: 20px auto; /* increase the margin to add space around the element */
+    background-color: #ffffff;
+    padding: 20px; /* increase the padding for more space between the content and the border */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+  
+  .det {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+.det div h3{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  #div1{
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: solid 2px blue;
+    background-color: lightblue;
+}
+/*for table*/
+table{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, tr{
+    border: solid 1px #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1.2em;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+/* for the footer  */
+footer {
+    align-items: center;
+    background-color: #141414;
+    padding: 100px;
+  }
+footer a{
+    color: #f7f7f7;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+
+  }
+footer nav{
+    background-color: #000000;
+    border-radius: 5px;
+  }
+  footer nav menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer li a:hover{
+    color: #0d0d0d;
+    background-color: #f7f7f7;
+  }
+footer nav li{
+    text-align: center;
+    ;
+  }
+footer .comp-des p{
+    font-size: .90em;
+    color: #f7f7f7;
+}
+footer .terms p{
+    text-align: center;
+    font-size: .75em;
+    color: #f7f7f7;
+}

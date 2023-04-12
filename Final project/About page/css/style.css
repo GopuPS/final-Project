@@ -1,0 +1,185 @@
+html{scroll-behavior: smooth;}
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+p,a,li,td{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.example {
+    padding: 2% 5%;
+}
+/** header before scroll**/
+.menu-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    position: fixed;
+    z-index: 9999;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all .25s ease;
+}
+.menu-row .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu-row .logo > div{
+    height: 115px;
+    transition: all .25s linear;
+}
+.menu-row .logo img{
+    height: 100%;
+    width: auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+      /*for navigation links */
+.menu li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+      /* a to hover*/
+.menu li a:hover {
+    background-color: #0d0d0d;
+    color: #f7f7f7;
+}
+ /** the two section is active when the  scroll is grater than 75px**/
+.scrolled-menu{
+    background-color: #0e0e0e;
+}
+.scrolled-menu li a{
+    color: #f4f4f4;
+}
+.scrolled-menu li a:hover{
+    color: #0d0d0d;
+    background-color: #f7f7f7;
+}
+/*for header*/
+.masthead{
+    background-image: url("../img/Sony-Logo.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.masthead div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .7);
+}
+.masthead h1{
+    color: rgba(255, 255, 255, .7);
+    font-size: 3.5em;
+}
+/* for para one */
+.part-1{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2%;
+}
+.part-1 h2{
+    text-align: center;
+    font-size: 3em;
+}
+/*FOR para two*/
+.part-2{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2%;
+}
+.part-2 h2{
+    text-align: center;
+    font-size: 3em;
+}
+/*FOR IMAGE */
+.part-2 .image-part{
+    width: 80%;
+    height: auto;
+    margin: 0px auto; 
+}
+/*FOR IMAGE */
+.part-2 .image-part img{
+    width: 100%;
+    height: auto;    
+}
+.part-3{
+    width: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2%;
+}
+.part-3 h2{
+    text-align: center;
+    font-size: 3em;
+}
+/*FOR IMAGE */
+.part-3 .image-part{
+    width: 80%;
+    height: auto;
+    margin: 0px auto; 
+}
+
+.part-3 .image-part img{
+    width: 100%;
+    height: auto;    
+}
+.part-3 .text-part{
+    text-align: center;
+}
+/* for the footer  */
+footer {
+    align-items: center;
+    background-color: #141414;
+    padding: 100px;
+  }
+footer a{
+    color: #f7f7f7;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+
+  }
+footer nav{
+    background-color: #000000;
+    border-radius: 5px;
+  }
+  footer nav menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer li a:hover{
+    color: #0d0d0d;
+    background-color: #f7f7f7;
+  }
+footer nav li{
+    text-align: center;
+    ;
+  }
+footer .comp-des p{
+    font-size: .90em;
+    color: #f7f7f7;
+}
+footer .terms p{
+    text-align: center;
+    font-size: .75em;
+    color: #f7f7f7;
+}

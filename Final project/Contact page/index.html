@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--adding an id to attach meta.html file with jQuery -->
+<head id="head">
+    <title>Contact and Support </title>
+    <!--meta to be added by js-->
+    <meta name="description" content="This site is for ad">
+    <!-- add the js -->
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+      <script src="./js/custom-js.js"></script>
+    </head>
+    <body>
+        <!--for header to be added by js-->
+        <header class="menu-row" id="header"></header>
+        <section class="masthead">
+            <div>
+                <h1>CONTACT DETAILS</h1>
+            </div>
+        </section>
+        <!--SUB HEADING-->
+        <div class="sub-head">
+            <h2>Ask How We Can Help You:</h2>
+            <!--SUB HEADING-->
+            <div class="dets">
+                <p><label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name"> </p>
+              
+                <p><label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name"></p>
+              
+                <p><label for="email">Email:</label>
+                <input type="email" id="email" name="email"><p>
+        
+              <!--for the customer address-->
+              <label for="address-type">Address Type:</label>
+              <select id="address-type" name="address-type">
+              <option value="house">House</option>
+              <option value="business">Business</option>
+              <option value="campus">Campus</option>
+              <option value="hotel">Hotel</option>
+              <option value="dormitory">Dormitory</option>
+              <option value="others">Others</option>
+             </select>
+            <p> <label for="street-address">Street Address:</label>
+             <input type="text" id="street-address" name="street-address"></p>
+           
+            <p> <label for="suite-apt">Suite/Apartment #:</label>
+             <input type="text" id="suite-apt" name="suite-apt"></p>
+           
+            <p> <label for="city">City:</label>
+             <input type="text" id="city" name="city"></p>
+           
+             <p><label for="province">Province:</label>
+             <input type="text" id="province" name="province"></p>
+           
+           <p>  <label for="postal-code">Postal Code:</label>
+             <input type="text" id="postal-code" name="postal-code"></p>
+           </div>
+        </div>
+        <!--FOR SEARCH BAR TO SEARCH-->
+        <div>
+            <h3>Filter the Table</h3>
+            <p><input id="myInput" type="text" placeholder="search ..."></p>
+            <!--TABLE TO GIVE LOCATION OF STORE -->
+            <table>
+                <thead>
+                    <tr> 
+                        <th>Location</th><th>Contact</th><th>Email</th><th>Postal code</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    <tr>
+                        <td>Barrie</td><td>+1(7052528486)</td><td>SonyBarrie@email.ca</td><td>L4N6J4</td>
+                    </tr>
+                    <tr>
+                        <td>Orilla</td><td>+1(7052528487)</td><td>SonyOrilla@email.ca</td><td>M9D9J4</td>
+                    </tr>
+                    <tr>
+                        <td>Scarborough</td><td>+1(7052528488)</td><td>SonyScarbrough@email.ca</td><td>Y4D9J4</td>
+                    </tr>
+                    <tr>
+                        <td>London</td><td>+1(7052528489)</td><td>SonyLondon@email.ca</td><td>N0L1G0</td>
+                    </tr>
+                    <tr>
+                        <td>Toronto</td><td>+1(7052529090)</td><td>SonyToronto@email.ca</td><td>M4C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <main>
+        </main>
+        <!--footer to added by js-->
+        <footer id="footer"></footer>
+    </body>
+    </html>
